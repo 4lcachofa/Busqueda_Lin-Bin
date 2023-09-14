@@ -7,7 +7,7 @@ def lineal(arr, x):
             if arr[i] == x:
                 print("El elemento ",x," se encontró en la posición ", i)
                 return
-    print("El elemento ",x," no se encontró en la lista.")
+    print("Dato no encontrado D:")
 
 
 def burbuja_opt(arr):
@@ -20,7 +20,7 @@ def burbuja_opt(arr):
                 arr[i-1], arr[i] = arr[i], arr[i-1]
                 xd = True
         n -= 1
-
+    print("Arreglo ordenado:", arr)
 
 def binaria(arr, x):
     ini= 0
